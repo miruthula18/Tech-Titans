@@ -1,0 +1,21 @@
+{
+  "name": "disaster-reunite",
+  "version": "1.0.0",
+  "description": "DISASTER REUNITE: Find. Verify. Reunite. - Disaster-Time Family Reunification Platform",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "node start.js",
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix frontend dev",
+    "build": "npm --prefix frontend run build",
+    "install:all": "npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "disaster-reunite",
+    "emergency-response",
+    "family-reunification",
+    "rescue-management"
+  ],
+  "author": "Antigravity Emergency Engineering Team",
+  "license": "MIT"
+}
